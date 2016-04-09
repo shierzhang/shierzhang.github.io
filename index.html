@@ -14,37 +14,69 @@
           width: 50px;
           padding-left: 2em;
         }
-        
+        #onepage{
+          /*padding-top: 30px;*/
+          padding-left: 60px;
+          height: 80%;
+          position: absolute;
+        }
+        .footer{
+          margin-top: 100px;
+        }
+        .section{
+          margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+          body{
+            width: 100%;
+          }
+          #onepage {
+            width: 70%;
+            margin: 0,auto;
+            text-align: center;
+          }
+          .footer{
+            margin-top: 50px;
+            font-size: 0.8em;
+            width: 100%;
+            text-align: center;
+          }
+        }
     </style>
     <title>张拾贰</title>
   </head>
   <body>
     <div id="onepage">
     <div class="section">
-        <div class="container">
-            <h2>ZHANGR.xyz</h2>
+      <div class="container">
+            <h1>ZHANGR.xyz</h2>
             <p>_ _不积跬步，无以至千里；不积小流，无以成江海。</p>
-        </div>
-    </div>
-    <div class="section">
+      </div>
+      </div>
+      <div class="section">
+            <div class="container">
+                <h2>张拾贰</h2>
+                <p>_ _Zhangshier</p>
+            </div>
+      </div>
+      <div class="section" id="t">
           <div class="container">
-              <h2>张拾贰</h2>
-              <p>_ _Zhangshier</p>
+            <p><a href="http://blog.zhangr.xyz" target="_blank">blog</a></p>
+            <p><a href="https://github.com/shierzhang" target="_blank">github</a></p>
+            <p><a href="https://twitter.com/shier_zhang" target="_blank">twitter</a></p>
           </div>
-    </div>
-    <div class="section" id="t">
+      </div>
+      <div class="section">
+          <div class="container">
+            <p>_ _絮絮叨叨...</p>
+          </div>
+      </div>
+      <div class="footer">
         <div class="container">
-          <p><a href="http://blog.zhangr.xyz" target="_blank">blog</a></p>
-          <p><a href="https://github.com/shierzhang" target="_blank">github</a></p>
-          <p><a href="https://twitter.com/shier_zhang" target="_blank">twitter</a></p>
+          <p>by zhangshier</p>
         </div>
-    </div>
-    <div class="section">
-        <div class="container">
-          <p>_ _絮絮叨叨...</p>
-        </div>
-    </div>
-</div>
+      </div>
+  </div>
 
   </body>
 </html>
